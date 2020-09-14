@@ -40,6 +40,7 @@
 		    <url>http://172.31.15.236:8081/repository/maven-releases/</url>
 		</repository>
   	</distributionManagement>
+	#practice purpose
 	
 <build>
     <plugins>
