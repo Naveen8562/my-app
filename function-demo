@@ -28,6 +28,7 @@ node{
    def sendSlackNotifications(String message, String msgColor){
        slackSend baseUrl: 'https://hooks.slack.com/services/',
        channel: '#jenkins-pipeline-demo',
+       extra line delete me if you observe 
        color: msgColor, 
        message: message, 
        teamDomain: 'javahomecloud',
